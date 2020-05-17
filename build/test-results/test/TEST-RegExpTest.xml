@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RegExpTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-17T16:32:57" hostname="MacBook-Air-Artem-2.local" time="0.057">
+<testsuite name="RegExpTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-17T19:18:33" hostname="MacBook-Air-Artem-2.local" time="0.049">
   <properties/>
-  <testcase name="check" classname="RegExpTest" time="0.057"/>
+  <testcase name="check" classname="RegExpTest" time="0.049"/>
   <system-out><![CDATA[Наречий: 0
 Прилагательные: 0
 Глаголов: 1
