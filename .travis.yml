@@ -5,3 +5,6 @@ addons:
     organization: "syanches"
     token:
       secure: "349f5bfca313b69d6750473a94f78f8843313553"
+ script:
+  - sonar-scanner
+  - ./gradlew sonarqube
