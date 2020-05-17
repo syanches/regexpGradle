@@ -7,7 +7,7 @@ public class RegExpTest {
     @Test
     public void check() {
         assertEquals(5, regexp.check("hgf"));
-        assertEquals(5, regexp.check("gfds"));
+        assertEquals(4, regexp.check("gfds"));
         assertEquals(5, regexp.check("g33333s"));
     }
 }
