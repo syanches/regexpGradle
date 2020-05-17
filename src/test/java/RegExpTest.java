@@ -6,8 +6,11 @@ public class RegExpTest {
     private RegExp regexp;
     @Test
     public void check() {
-        assertEquals(5, regexp.check("hgf"));
-        assertEquals(4, regexp.check("gfds"));
-        assertEquals(5, regexp.check("g33333s"));
+        assertEquals("Наречий: " + 0 + "\n"+"Прилагательных: " + 0
+                + "\n"+ "Глаголов: " + 1, regexp.check("я ушла одна"));
+        assertEquals("Наречий: " + 0 + "\n"+"Прилагательных: " + 3
+              + "\n"+ "Глаголов: " + 0, regexp.check("он красивый человек, синий дом, белое платье"));
+        assertEquals("Наречий: " + 1 + "\n"+"Прилагательных: " + 0
+                + "\n"+ "Глаголов: " + 0, regexp.check("звонко"));
     }
 }
